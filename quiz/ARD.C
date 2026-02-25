@@ -3,7 +3,7 @@
 #include <ctype.h>
 #include <stdbool.h>
 
-/* ---------- VALIDACIONES ---------- */
+/* VALIDACIONES*/
 
 bool es_entero(const char *s) {
     if (strlen(s) == 0)
@@ -69,7 +69,6 @@ bool acepta(const char *s) {
     return false;
 }
 
-/* ---------- PROGRAMA PRINCIPAL ---------- */
 
 int main(int argc, char *argv[]) {
 
